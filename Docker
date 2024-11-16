@@ -8,6 +8,6 @@ WORKDIR /root/app
 COPY . /root/app
 
 RUN npm install
-EXPOSE 3333
+EXPOSE 8080
 
 CMD ["npm", "start"]
